@@ -1,0 +1,11 @@
+# Focused GitHub Actions, repository-configuration, and secret policy.
+compact: true
+enable-secret-scan-all-files: true
+framework:
+    - "github_actions"
+    - "github_configuration"
+    - "secrets"
+hard-fail-on: "HIGH,CRITICAL"
+output:
+    - "cli"
+soft-fail-on: "LOW,MEDIUM"

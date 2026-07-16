@@ -1,0 +1,7 @@
+# Strict policy: every failed check blocks the scan.
+compact: true
+enable-secret-scan-all-files: true
+evaluate-variables: true
+hard-fail-on: "LOW,MEDIUM,HIGH,CRITICAL"
+output:
+    - "cli"

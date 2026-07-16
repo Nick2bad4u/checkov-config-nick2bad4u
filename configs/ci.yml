@@ -1,0 +1,10 @@
+# CI policy with console and SARIF reports.
+compact: true
+enable-secret-scan-all-files: true
+evaluate-variables: true
+hard-fail-on: "HIGH,CRITICAL"
+output:
+    - "cli"
+    - "sarif"
+output-file-path: "console,checkov-results.sarif"
+soft-fail-on: "LOW,MEDIUM"

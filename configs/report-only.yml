@@ -1,0 +1,7 @@
+# Report findings without failing for policy results. Scanner errors still surface.
+compact: true
+enable-secret-scan-all-files: true
+evaluate-variables: true
+output:
+    - "cli"
+soft-fail: true
